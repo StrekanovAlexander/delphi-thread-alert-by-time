@@ -19,18 +19,18 @@ EditWindowCount=1
 [D:\dev\Delphi\delphi-thread-alert-by-time\MainForm.pas]
 ModuleType=SourceModule
 FormState=1
-FormOnTop=1
+FormOnTop=0
 
 [D:\dev\Delphi\delphi-thread-alert-by-time\AlertThreadUnit.pas]
 ModuleType=SourceModule
 FormState=0
 FormOnTop=0
 
-[D:\dev\Delphi\delphi-thread-alert-by-time\ThreadAlertByTime.dpr]
+[C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
 FormState=0
 FormOnTop=0
 
-[C:\Program Files (x86)\Borland\Delphi7\Projects\ProjectGroup1.bpg]
+[D:\dev\Delphi\delphi-thread-alert-by-time\ThreadAlertByTime.dpr]
 FormState=0
 FormOnTop=0
 
@@ -58,13 +58,13 @@ LeftPanelData=000004000000000000000000000000000000000000000000000100000000000000
 RightPanelSize=0
 BottomPanelSize=0
 BottomPanelClients=MessageView@EditWindow0
-BottomPanelData=00000400010000000B0000004D6573736167655669657700000000000000000000000000000000000100000000000000000B0000004D65737361676556696577FFFFFFFF
+BottomPanelData=00000400010000000B0000004D65737361676556696577000000000000000000000000000000000001000000000000000000000000FFFFFFFF
 
 [View0]
 Module=D:\dev\Delphi\delphi-thread-alert-by-time\MainForm.pas
 CursorX=18
 CursorY=50
-TopLine=29
+TopLine=1
 LeftCol=1
 
 [View1]
@@ -91,8 +91,8 @@ Left=0
 Top=0
 Width=1920
 Height=115
-MaxLeft=-1
-MaxTop=-1
+MaxLeft=-4
+MaxTop=-4
 MaxWidth=1928
 MaxHeight=115
 ClientWidth=1920
