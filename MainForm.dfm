@@ -60,8 +60,7 @@ object formMain: TformMain
     Items.Strings = (
       '3'
       '5'
-      '60'
-      '120')
+      '60')
   end
   object dtpTimeEnd: TDateTimePicker
     Left = 264
@@ -90,14 +89,5 @@ object formMain: TformMain
     Height = 19
     Panels = <>
     SimplePanel = True
-  end
-  object btnTimeLeft: TButton
-    Left = 8
-    Top = 72
-    Width = 75
-    Height = 25
-    Caption = 'Time left'
-    TabOrder = 5
-    OnClick = btnTimeLeftClick
   end
 end
