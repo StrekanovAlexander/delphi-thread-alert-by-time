@@ -32,6 +32,7 @@ var
   formMain: TformMain;
 
 implementation
+  uses AlertThreadUnit;
 
 {$R *.dfm}
 
@@ -67,8 +68,18 @@ begin
 end;
 
 procedure TformMain.btnRunClick(Sender: TObject);
+var AlertThread: TAlertThread;
 begin
   dtpTimeEnd.Time := IncMinute(dtpTimeStart.Time, StrToInt(cbMinutesAdd.Text));
+
+  AlertThread := TAlertThread.Create(False);
+  with AlertThread do
+    begin
+      FreeOnTerminate := true;
+      Priority := tpLowest;
+      Resume;
+    end;
+
 end;
 
 procedure TformMain.btnTimeLeftClick(Sender: TObject);

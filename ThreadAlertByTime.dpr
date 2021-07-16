@@ -2,7 +2,8 @@ program ThreadAlertByTime;
 
 uses
   Forms,
-  MainForm in 'MainForm.pas' {formMain};
+  MainForm in 'MainForm.pas' {formMain},
+  AlertThreadUnit in 'AlertThreadUnit.pas';
 
 {$R *.res}
 
